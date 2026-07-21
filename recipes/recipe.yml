@@ -19,16 +19,17 @@ modules:
         - avengemedia/danklinux
     install:
       packages:
-        - dms
-        - dms-greeter
+        - cliphist
         - danksearch
         - dgop
-        - quickshell-git
-        - niri
-        - xwayland-satellite
-        - greetd
-        - matugen
+        - dms
+        - dms-greeter
+        - ghostty
         - material-symbols-fonts
+        - matugen
+        - niri
+        - quickshell
+        - xwayland-satellite
 
   - type: systemd
     system:
